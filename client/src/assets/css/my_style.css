@@ -1,0 +1,52 @@
+.mrg-r-5 {
+    margin-right: 5px;
+}
+
+.mrg-r-10 {
+    margin-right: 10px;
+}
+
+.d-flex {
+    /* display: flex; */
+    width: 100%;
+    padding-bottom: 6px;
+    justify-content: flex-end;
+}
+
+.btn {
+    line-height: 0;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-enter-active,
+.modal-leave-active {
+    transition: opacity .9s
+}
+
+.modal-enter,
+.modal-leave-to {
+    opacity: 0
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.tableFilters {
+    display: flex;
+    margin: 4px 0;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+select.form-control {
+    width: 55px;
+}
+
+.top-menu {
+    width: auto;
+}
